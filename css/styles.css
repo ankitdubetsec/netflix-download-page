@@ -1,0 +1,206 @@
+body {
+    font-family: "Montserrat-Black", sans-serif;
+}
+
+#title {
+    background-color: #333;
+    color: white;
+    /* position: relative;
+    z-index: 0; */
+    padding-bottom: 80px;
+}
+
+h1 {
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 2.5rem;
+    /*rem aur no. sath me hona chahiye */
+    line-height: 1.5;
+    margin-bottom: 2rem;
+}
+
+.container-fluid {
+    padding: 5% 15% 7%;
+}
+
+.navbar-brand {
+    font-style: "Ubuntu", sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    /* margin-bottom: 1.5rem; */
+}
+
+.navbar {
+    padding-bottom: 0 0 4rem 0;
+    margin-bottom: 3.5rem;
+
+}
+
+.nav-item {
+    padding: 0 1.5rem;
+}
+
+.nav-link {
+    font-family: "Montserrat-light";
+    font-size: 1.2rem;
+}
+
+.downloadbtn {
+    margin: 0% 3% 5% 0;
+}
+
+.title-image {
+    position:absolute;
+    width: 20%;
+    right: 25%;
+    transform: rotate(25deg);
+}
+#footer{
+    background-color: #3333;
+    text-align: center;
+    padding: 7% 15%;
+    padding-bottom: 3%;
+}
+.contlogo{
+    /* padding: 0 1% 2% 1%; */
+    margin: 20px 10px;
+}
+.fa-solid {
+   
+    color: #ef8172;
+
+}
+
+.fa-regular {
+    /* font-size: 500%; */
+    color: #ef8172;
+}
+
+#features {
+    /* margin: auto; */
+    padding: 7% 0 4% 0;
+    text-align: center;
+    background-color: #252525;
+     position: relative;
+     z-index: 1;
+     /* bottom: 230px; */
+}
+/* #row{
+    padding-right: 3%;
+} */
+.ctaclass{
+    font-family: Montserrat;
+    font-weight: black;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    padding-bottom: 4%;
+    color: #fff;
+}
+h3 {
+    font-size: 1.5rem;
+    padding-top: 1rem;
+    font-family: Montserrat;
+    font-weight: bold;
+    color: #EAF6F6;
+    /* padding-right: 4%; */
+}
+
+.parafeatures {
+    color: #8f8f8f;
+    line-height: 1.5;
+}
+
+i:hover {
+    color: #ff4c68;
+}
+
+.col-lg-4 {
+    /* padding: 5%; */
+    padding-right: 2.6rem;
+}
+#testimonials{
+    text-align: center;
+    background-color: #333;
+    color: white;
+    /* position: relative;
+    bottom: 230px; */
+}
+h2{
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 2.5rem;
+    line-height: 1.5;
+    color: #EAF6F6;
+}
+.dogimg{
+    width: 30%;
+    /* border-radius: 100%; */
+    margin: 20px 50px 10px 20px;
+}
+em{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+#press{
+    text-align: center;
+    background-color: #333;
+    color: white;
+    /* position: relative;
+    bottom: 230px; */
+}
+.pressimg{
+    width: 19%;
+    padding: 0 3% 5% 0;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+.bttn{
+    width: 100%;
+
+}
+.samplepara{
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    color: #EAF6F6;
+}
+.name{
+    color: black;;
+}
+.price{
+    color: #ff4c68;
+}
+#pricing{
+    padding: 100px;
+    text-align: center;
+    background-color: #252525;
+    /* position: relative;
+    bottom: 230px; */
+}
+.newcolclass{
+    padding: 3% 2%;
+}
+#cta{
+    /* position: relative;
+    bottom: 230px; */
+    background-color: #333;
+    color: white;
+    text-align: center;
+    /* padding: 3% 3% 5% 3%; */
+    padding: 7% 15%;
+    text-align: center;}
+@media (max-width:  993px){
+    #title{
+        text-align: center;
+    }
+    .title-image {
+        position: static;
+        /* width: 20%;
+        right: 25%; */
+        width: 60%;
+        margin: auto;
+        transform: rotate(0);
+    }
+}

@@ -191,7 +191,7 @@ em{
     /* padding: 3% 3% 5% 3%; */
     padding: 7% 15%;
     text-align: center;}
-@media (max-width:  993px){
+@media (max-width:  777px){
     #title{
         text-align: center;
     }
